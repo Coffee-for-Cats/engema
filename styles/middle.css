@@ -1,0 +1,22 @@
+section#local {
+    background: #fff6f6;
+}
+
+address {
+    font-style: normal;
+    display: flex; flex-direction: column;
+    width: clamp(40vw, 32rem, 85vw);
+    background-color: #efefff;
+    padding: 1.4rem;
+    border-radius: .5rem;
+    margin: 4rem 0;
+}
+
+#map-replacer, iframe {
+    width: 100%;
+    height: clamp(30vw, 20rem, 70vh);
+    background: #0097b2;
+    opacity: .5;
+    margin: .6rem 0;
+    border: 3px solid rgba(0, 0, 100, .4);border-radius: .3rem;
+}

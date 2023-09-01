@@ -5,10 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engema</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/middle.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+    <script src="./post-load.js"></script>
 </head>
 <body>
-    <img src="./logoEngema.webp" alt="Logo Engema">
-    <h1>Site em Manutenção!</h1>
+    <section>
+        <header>
+            <h1>Engema</h1>
+            <h2>ASSESSORIA E CONSULTORIA</h2>
+        </header>
+    </section>
+    <section id="local">
+        <address>
+            <h2>Localização</h2>
+            <!-- Todo: Map -->
+            <div id="map-replacer"></div>
+            Rua das Pitangueiras, nº 386, Bairro do Pontal - Tapes RS
+        </address>
+    </section>
+    <section>
+        <footer>
+            <!-- Contatos -->
+            <article class="contact-card">
+                <h3>Email</h3>
+                engemaconsultoria<wbr>@gmail.com
+                <a href="mailto:engemaconsultoria@gmail.com" target="_blank">
+                    Me mande um email
+                </a>
+            </article>
+            <article class="contact-card">
+                <h3>Telefone</h3>
+                (51) 99702-1612
+                <br>
+                <a href="https://wa.me/+555197021612" target="_blank">
+                    Me chame no Whatsapp
+                </a>
+            </article>
+        </footer>
+    </section>
 </body>
 </html>
