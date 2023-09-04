@@ -1,4 +1,4 @@
-window.onload = () => { setTimeout(loadMap, 500); }
+window.onload = () => { setTimeout(loadMap, 1500); }
 
 async function loadMap() {
     const map = document.createElement('iframe');
